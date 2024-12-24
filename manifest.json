@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Ghost History",
+    "version": "1.0",
+    "description": "Automatic history clearing of specified sites.",
+    "permissions": [
+        "history",
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}

@@ -1,0 +1,9 @@
+.RDR {
+    font-family: "RDR", sans-serif;
+    letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: RDR;
+    src: url(../fonts/rdr.ttf);
+}

@@ -1,0 +1,11 @@
+@import url(./general.css);
+@import url(./fonts.css);
+@import url(./mac-button.css);
+
+
+.logo {
+    background-image: url("../icons/icon16.png");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}

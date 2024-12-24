@@ -27,6 +27,24 @@ The following technologies were used to build this extension:
 3. Enable Developer mode.
 4. Click on Load unpacked and select the project folder.
 
+---
+
+### `USE SITE`: 📂 popup.js Documentation
+
+The `popup.js` file contains the logic for clearing browser history of specific websites when the user clicks the "Clean up" button.
+
+### Code Overview
+The script listens for a click event on a button with the ID `clearHistory`. When clicked, it performs the following actions:
+1. **Defines a list of websites to clear**: 
+   ```javascript
+   const sitesToClear = [
+      "testsite.com",
+      "testsite2.com", 
+      "testsite3.com"
+    ];
+   ``` 
+---
+
 ## 🖼️ Screenshot
 
 Here’s how the extension looks:
@@ -46,24 +64,6 @@ manifest.json - Configuration file for the Chrome extension.
 popup.html - HTML for the popup interface.
 popup.js - JavaScript logic for the popup interface.
 ```
-
----
-
-### `USE SITE`: 📂 popup.js Documentation
-
-The `popup.js` file contains the logic for clearing browser history of specific websites when the user clicks the "Clean up" button.
-
-### Code Overview
-The script listens for a click event on a button with the ID `clearHistory`. When clicked, it performs the following actions:
-1. **Defines a list of websites to clear**: 
-   ```javascript
-   const sitesToClear = [
-      "testsite.com",
-      "testsite2.com", 
-      "testsite3.com"
-    ];
-   ``` 
----
 
 ## 🤝 Contributing
 Contributions are welcome! If you have suggestions or issues, please open an issue.

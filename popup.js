@@ -1,7 +1,8 @@
 document.getElementById("clearHistory").addEventListener("click", function () {
     const sitesToClear = [
-        "culture-screen.store",
-        "testsite.com"
+        "testsite.com",
+        "testsite2.com",
+        "testsite3.com"
     ];
 
     sitesToClear.forEach((site) => {
